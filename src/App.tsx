@@ -17,6 +17,7 @@ import PlatformSelector from "./components/PlatformSelector";
 import { Platform } from "./hooks/UseGames";
 import SortSelector from "./components/SortSelector";
 import GameHeading from "./components/GameHeading";
+import Emoji from "./components/Emoji";
 
 export interface GameQuery {
   genre: Genre | null;
