@@ -3,7 +3,6 @@ import {
   Button,
   HStack,
   Heading,
-  Highlight,
   Image,
   List,
   ListItem,
