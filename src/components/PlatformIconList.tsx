@@ -1,17 +1,16 @@
+import { HStack, Icon } from "@chakra-ui/react";
+import { BsGlobe } from "react-icons/bs";
 import {
-  FaWindows,
-  FaPlaystation,
-  FaXbox,
   FaApple,
   FaLinux,
-  FaAndroid,
+  FaPlaystation,
+  FaWindows,
+  FaXbox,
 } from "react-icons/fa"; //fa stands for font awesome
-import { MdPhoneIphone } from "react-icons/md"; //md stands for material desing
-import { SiNintendo, SiPlaystation } from "react-icons/si";
-import { BsGlobe } from "react-icons/bs";
-import { Platform } from "../entities/Platform";
-import { HStack, Icon, Text } from "@chakra-ui/react";
 import { IconType } from "react-icons/lib";
+import { MdPhoneIphone } from "react-icons/md"; //md stands for material desing
+import { SiNintendo } from "react-icons/si";
+import Platform from "../entities/Platform";
 
 interface Props {
   platforms: Platform[];
